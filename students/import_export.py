@@ -158,7 +158,7 @@ def generate_demo_student_csv():
     output = StringIO()
     writer = csv.writer(output)
     writer.writerow(["full_name", "phone_number", "department", "year", "gender", "room_number", "password"])
-    writer.writerow(["Rahul Sharma", "9000000001", "Information Technology", "year_1", "male", "101", "rahul123"])
+    writer.writerow(["Aniket Bondre", "9209803186", "IT", "year_1", "male", "101", "aniket123"])
     writer.writerow(["Aman Verma", "9000000002", "Mechanical Engineering", "year_2", "male", "102", "aman123"])
     writer.writerow(["Sneha Patil", "9000000003", "Computer Technology", "year_1", "female", "201", "sneha123"])
     writer.writerow(["Pooja Kulkarni", "9000000004", "Electronics Engineering", "year_3", "female", "202", "pooja123"])
